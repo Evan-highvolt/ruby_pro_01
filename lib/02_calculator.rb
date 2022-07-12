@@ -8,7 +8,7 @@ end
 
 def sum(array)
 	array.reduce(:+) || 0 
-	# array.inject {|sum, n| sum + n } #inject is similar to reduce but it needs a value in it's array to get started. 
+	# array.inject {|sum, n| sum + n }  
 end
 
 def multiply(array) #Question: do i need to put an array here?
